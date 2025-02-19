@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #471a94, #6a3cbb);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: linear-gradient(to right, #471a94, #6a3cbb, #8153d7, #f88f1f);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top:10px;
+}
+
+.navbar .nav-title {
+    position: relative;
+    left:530px;
+    bottom:15px;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-title2 {
+    position: relative;
+    left:360px;
+    top:15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6a3cbb;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.nav-title3 {
+    position: relative;
+    right:80px;
+    top:15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+/* Container */
+.container {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 80px;
+}
+
+/* Bagian kiri */
+.left-section {
+    flex: 2;
+    background: linear-gradient(to bottom right, #8153d7, #6a3cbb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    gap:20px;
+}
+
+.left-sectionh1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.UsernameLogin {
+    width: 250px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .UsernameLogin:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .UsernameLogin:active {
+    transform: scale(0.95);
+  }
+  
+  .UsernameLogin:focus {
+    border: 2px solid grey;
+  }
+
+  .PasswordLogin {
+    width: 250px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .PasswordLogin:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .PasswordLogin:active {
+    transform: scale(0.95);
+  }
+  
+  .PasswordLogin:focus {
+    border: 2px solid grey;
+  }
+
+  .BtnLogin {
+    margin-top: 30px;
+    color: #090909;
+    padding: 0.1em 1em;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 5px #f88f1f, -1px -1px 5px #ffaf4b;
+  }
+  
+  .BtnLogin:hover {
+    border: 1px solid white;
+  }
+  
+  .BtnLogin:active {
+    box-shadow: 4px 4px 12px #f88f1f, -4px -4px 12px #ffaf4b;
+  }
+  
+
+.right-section {
+    flex: 1;
+    background: linear-gradient(to bottom right, #f88f1f, #ffaf4b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.right-sectionh1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.BtnSignup {
+    margin-top: 30px;
+    color: white;
+    padding: 0.5em 1.5em;
+    font-size: 15px;
+    border-radius: 0.5em;
+    background: linear-gradient(to right, #6a3cbb, #8153d7);
+    cursor: pointer;
+    border: 1px solid #f88f1f;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 5px #f88f1f, -1px -1px 5px #ffaf4b;
+  }
+  
+  .BtnSignup:hover {
+    border: 1px solid white;
+  }
+  
+  .BtnSignup:active {
+    box-shadow: 4px 4px 12px #f88f1f, -4px -4px 12px #ffaf4b;
+  }
