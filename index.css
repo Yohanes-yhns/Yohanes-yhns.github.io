@@ -947,14 +947,6 @@ body {
     background-color: #07b90d;
   }
 
-  .Imglogofooter {
-    height:301px;
-    width:373px;
-    z-index: 6;
-    position: relative;
-    top:300px;
-  }
-
   .Footer {
     display: flex;
     align-items: center;
