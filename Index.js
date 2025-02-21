@@ -18,7 +18,7 @@ popupBtnFaskesKesehatan.innerText = "Faskes Kesehatan";
 popupBtnFaskesKesehatan.classList.add("popupBtnFaskesKesehatan");
 popupBtnFaskesKesehatan.addEventListener("click", () => {
     popupRS.style.display = "block";
-    popupCS.style.display = "block";
+    overlayCS.style.display = "block";
 })
 popupCS.appendChild(popupBtnFaskesKesehatan);
 
@@ -56,7 +56,7 @@ popupBtnProdukAsuransi.innerText = "Produk Asuransi";
 popupBtnProdukAsuransi.classList.add("popupBtnProdukAsuransi");
 popupBtnProdukAsuransi.addEventListener("click", () => {
     popupAK.style.display = "block";
-    popupCS.style.display = "none";
+    popupCS.style.display = "block";
     overlayCS.style.display = "none";
 });
 popupCS.appendChild(popupBtnProdukAsuransi);

@@ -54,7 +54,6 @@ body {
     border: 0.5px solid white;
     border-radius: 5px;
     background-color: transparent;
-    padding: 5px;
 }
 
 .nav-title3 {
@@ -88,7 +87,7 @@ body {
     gap:20px;
   }
 
-  .Obat1 {
+  .IMGOBAT {
     height:140px;
     width:180px;
   }
@@ -146,11 +145,6 @@ body {
     gap:20px;
   }
 
-  .Obat2 {
-    height:140px;
-    width:180px;
-  }
-
   .container-2 .Title {
     font-weight: 800;
     font-size: 18px;
@@ -176,11 +170,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat3 {
-    height:140px;
-    width:180px;
   }
 
   .container-3 .Title {
@@ -217,11 +206,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat4 {
-    height:140px;
-    width:180px;
   }
 
   .container-4 .Title {
@@ -277,11 +261,6 @@ body {
     gap:20px;
   }
 
-  .Obat5 {
-    height:140px;
-    width:180px;
-  }
-
   .container-5 .Title {
     font-weight: 800;
     font-size: 18px;
@@ -307,11 +286,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat6 {
-    height:140px;
-    width:180px;
   }
 
   .container-6 .Title {
@@ -348,11 +322,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat7 {
-    height:140px;
-    width:180px;
   }
 
   .container-7 .Title {
@@ -408,11 +377,6 @@ body {
     gap:20px;
   }
 
-  .Obat8 {
-    height:140px;
-    width:180px;
-  }
-
   .container-8 .Title {
     font-weight: 800;
     font-size: 18px;
@@ -438,11 +402,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat9 {
-    height:140px;
-    width:180px;
   }
 
   .container-9 .Title {
@@ -479,11 +438,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat10 {
-    height:140px;
-    width:180px;
   }
 
   .container-10 .Title {
@@ -539,11 +493,6 @@ body {
     gap:20px;
   }
 
-  .Obat11 {
-    height:140px;
-    width:180px;
-  }
-
   .container-11 .Title {
     font-weight: 800;
     font-size: 18px;
@@ -569,11 +518,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat12 {
-    height:140px;
-    width:180px;
   }
 
   .container-12 .Title {
@@ -610,11 +554,6 @@ body {
     align-items: center; 
     justify-content: center;
     gap:20px;
-  }
-
-  .Obat13 {
-    height:140px;
-    width:180px;
   }
 
   .container-13 .Title {
@@ -670,11 +609,6 @@ body {
     gap:20px;
   }
 
-  .Obat14 {
-    height:140px;
-    width:180px;
-  }
-
   .container-14 .Title {
     font-weight: 800;
     font-size: 18px;
@@ -688,3 +622,169 @@ body {
     color: #2B2B2F;
     font-family: 'Poppins';
   }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Awalnya disembunyikan */
+    z-index: 999;
+}
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1000;
+    font-family: 'Poppins';
+}
+
+.popup-content {
+    width:500px;
+    height:500px;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.close-btn1 {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn1:focus {
+  outline: none;
+}
+
+.btnbuy {
+  height: 40px;
+  width:70px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: #f88f1f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btnbuy:hover {
+  background: #07b90d;;
+}
+
+.popup2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup-content2 {
+  display: flex;
+  flex-direction: column;
+  width: 500px; /* Sesuaikan ukuran popup */
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: left; /* Supaya teks dalam popup rata kiri */
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px; /* Jarak antara 2 kolom */
+}
+
+.left-content {
+  flex: 1; /* Kolom kiri lebih kecil */
+}
+
+.right-content {
+  flex: 1.5; /* Kolom kanan lebih besar */
+}
+
+.formPembelian {
+  display: flex;
+  flex-direction: column;
+}
+
+.formPembelian label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.formPembelian input,
+.formPembelian textarea,
+.formPembelian select {
+  padding: 8px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px; /* Memberi jarak antar elemen form */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+/* Tombol Close di pojok kanan atas */
+.close-btn2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paybtn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.paybtn:hover {
+  background: #07b90d;
+}
